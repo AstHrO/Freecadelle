@@ -1,0 +1,116 @@
+html{overflow:hidden}
+body{font-family:Helvetica, Arial;font-size:12px;color:#444;background:#fff;margin:0px;color:#444;height:100%;overflow:hidden}
+a:link,a:visited,a:active{color:#333;text-decoration:none}
+a:hover{color:red;text-decoration:underline}
+img{border:0}
+h1,h2,h3{font-weight:normal;}
+h1{color:#393;font-size:24px;margin:3px 0 5px 0}
+h2{color:#6a6;font-size:20px;margin:0px}
+h3{color:#333;font-size:17px;margin:0px}
+
+#header{width:100%;height:215px;font-size:13px;color:#fff;}
+#header.doc{height:80px;}
+#menu{height:80px;line-height:40px;text-align:center;background:url(../img/bg_header.png) 0px -1px;text-shadow:1px 1px 1px #030;}
+#menu div{margin:0 auto;width:950px;}
+#menu img{margin:0 60px 0 0;float:left;margin-top:8px;}
+#menu form{background:#252;float:right;padding:0 12px;text-transform:uppercase;font-size:10px;}
+#menu input{border:0px;height:18px;color:#ccc;text-indent:5px;}
+#menu a{color:#eee;display:block;float:left;padding:0 20px;text-decoration:none;height:60px;}
+#menu a.selected{background:#B8AF03;}
+#menu a:hover{background:#7a0;}
+#logo{width:950px;margin:30px auto;}
+
+#section{width:100%;min-width:950px;margin:0px auto;background:#360;}
+#section_inside{width:100%;background:#fff url(../img/bg.gif) repeat-x;height:600px}
+#section_inside_inside{padding:50px;overflow:hidden;color:#333;font-size:15px;}
+
+#inner_footer{ width:950px;height:20px;margin:0px auto;padding:10px 0;color:#fff;font-size:12px;text-shadow:1px 1px 1px #039;}
+#footer a{color:#170409;}
+
+#navigation{background:#fff url(../img/bg.gif) repeat-x;height:80px;float:right;width:400px}
+#navigation span{width:120px}
+
+#footer{position:fixed;bottom:0;clear:both;width:100%;background: url(../img/bg_footer.png);color: #170409}
+#footer p{margin:0;padding:5px 10px}
+#footer .center{float:left;width:33%;text-align:center;}
+
+@font-face{font-family:Chunkfive;src: url(../fonts/Chunkfive.ttf);}
+
+.left a{float:left;}
+
+
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif}
+p{margin:0 10px 10px}
+a{display:block;color: #981793;padding:10px}
+a.tag_cloud{float:left;width:auto;display:block;}
+div#header h1{height:80px;line-height:80px;margin:0; padding-left:10px;background: #EEE;color: #79B30B}
+div#content p{line-height:1.4}
+
+
+#wrapper{float:left;width:100%;margin-left:-400px}
+#content{margin-left:400px}
+
+#extra{background:#fff;font-weight:normal;min-height:200px;display:block}
+#extra{float:right;clear:right;width:400px}
+#extra ul{padding:0;margin:0;list-style-type:none}
+#extra a{ display:inline;width:150px;} 
+#extra .time{display:inline;width:50px;float:right} 
+
+
+#dtt td,#dtt tr{
+height:15px;
+line-height:3px;
+
+}
+.awesome, .awesome:visited {
+	background: #222 url(/images/alert-overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+.awesome:hover
+	{ background-color: #111; color: #fff; }
+.awesome:active
+	{ top: 1px; }
+.small.awesome, .small.awesome:visited
+	{ font-size: 11px; padding: ; }
+.awesome, .awesome:visited,
+.medium.awesome, .medium.awesome:visited
+	{ font-size: 13px; font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+.large.awesome, .large.awesome:visited
+	{ font-size: 14px; padding: 8px 14px 9px; }
+.green.awesome, .green.awesome:visited
+	{ background-color: #91bd09; }
+.green.awesome:hover
+	{ background-color: #749a02; }
+.blue.awesome, .blue.awesome:visited
+	{ background-color: #2daebf; }
+.blue.awesome:hover
+	{ background-color: #007d9a; }
+.red.awesome, .red.awesome:visited
+	{ background-color: #e33100; }
+.red.awesome:hover
+	{ background-color: #872300; }
+.magenta.awesome, .magenta.awesome:visited
+	{ background-color: #a9014b; }
+.magenta.awesome:hover
+	{ background-color: #630030; }
+.orange.awesome, .orange.awesome:visited
+	{ background-color: #ff5c00; }
+.orange.awesome:hover
+	{ background-color: #d45500; }
+.yellow.awesome, .yellow.awesome:visited
+	{ background-color: #ffb515; }
+.yellow.awesome:hover
+	{ background-color: #fc9200; }

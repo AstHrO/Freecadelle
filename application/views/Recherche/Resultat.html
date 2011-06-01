@@ -1,0 +1,35 @@
+
+<table id="dtt" cellspacing=0 cellpadding=0 style="width:40%" width=400>
+<thead>
+<tr>
+	<th></th>
+		
+	<th>Artiste</th>
+	<th>Titre</th>
+	<th>Album</th>
+	<!--<th>Genre</th>-->
+	<th>Durée</th>
+</tr>
+</THEAD>
+<tbody>
+{loop="resultat"}
+<tr>
+	<td ><a class="small awesome green" href="index.php/Playlist/add/{$value.mID}/" >+</a></td>
+	<td ><a href="index.php/Fiche/Artiste/{$value.aID}/">{$value.ARTISTE_NOM|substr:0,15}</a></td>
+	<td >{$value.MORCEAU_NOM|substr:0,30}</td>
+	<td ><a href="index.php/Recherche/par_album/{$value.CODE_ALBUM}/">{$value.ALBUM_NAME|substr:0,10}</td>
+<!--	<td ><a href="index.php/Recherche/par_genre/{$value.LIBELLE_GENRE}/">{$value.LIBELLE_GENRE|substr:0,10}</td>-->
+	<td >{$value.DUREE}</td>
+</tr>
+{/loop}
+</tbody>
+<tfoot>
+</tfoot>
+</table>
+
+<script>
+	$("#dtt").dataTable({
+	"sScrollY": "250",
+	"iDisplayLength": 9999,
+	"bScrollCollapse": true});
+</script>
